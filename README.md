@@ -1,4 +1,4 @@
-# Twilio-SMS-Remind-Me
+# Twilio SMS Remind Me
 Use Twilio to send text messages to yourself in the future as reminders
 
 
