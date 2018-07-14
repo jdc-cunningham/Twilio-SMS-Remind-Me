@@ -63,3 +63,7 @@ You send an SMS/MMS to Twilio and their phone number receives that message, then
 Twilio `/console/phone-numbers/incoming`
 
 OMG this is probably the hardest part of this entire project haha WTF(where) is the place in Twilio where you specify where Twilio sends the SMS to your server. It's [here](https://www.twilio.com/console/phone-numbers/incoming), no joke took me like 10 minutes to find that. You have to have a number first, but yeah, you can then decide where that SMS/MMS gets pointed to(your server's ip address/domain name) just like how you can do programmable emails with MailGun using the same approach. The SMS body is sent to you in your `$_POST` as `$_POST['Body']` you'll see this in the code.
+
+
+## Medium Writeup
+[This](https://medium.com/@jdc_cunningham/sms-remind-me-twilio-lamp-185901dda1b0) is pretty much my thought process as I built this thing out, poor readers.
