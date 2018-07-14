@@ -15,13 +15,15 @@ Twilio is pretty cool. It's interesting when you see services and you figure out
 ## Note
 Twilio is not free, you have to deposit I think at least $20 but the phone number you "rent?" costs $1.00/mo and for 3 cents, you can send 4 messages(receive/send cost the same) MMS is a little more and not 1-1 in cost like SMS.
 
-## This code
-This code takes two forms of commands:
+## SMS Commands
+This code currently takes two forms of commands:
 
 `cmd bitcoin-price`
 
 `Remind me #mins`
 `Remind me #hrs`
+
+But you can add more, it's just a string matching switch case loop lookup.
 
 The first one returns bitcoin's current price. This was the first thing I could think of to make at the time. The next one is what I made recently where it will send you back the same text you send roughly(within a minute or two) the same time as you specify in the future.
 
